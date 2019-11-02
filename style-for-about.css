@@ -1,0 +1,121 @@
+@font-face{
+    font-family: product-sans;
+    src: url(font/GoogleSans-Regular.ttf);
+}
+*{
+    font-family: 'product-sans';
+}
+body{
+    background: url(images/flat2.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+.container{
+    max-width: 90%;
+    margin : 0 auto;
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    color: whitesmoke;
+}
+.header hr{
+    margin-top: -20px;
+    margin-bottom: 100px;
+    width: 230px;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    
+}
+.content{
+    width: 100%;
+    padding: 10px;
+    overflow: auto;
+}
+.left-side-image, .center-side-bio, .right-side-quotes{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 30%;
+    height: 400px;
+    float: left;
+    
+}
+.left-side-image, .center-side-bio{
+    margin-right: 55px;
+}
+
+.left-side-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    top : 20px;
+    left: 75px;
+}
+
+.left-side-image h3,p{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.center-side-bio h3{
+    text-align: center;
+}
+
+.center-side-bio p{
+    text-align: start;
+    margin-left: 8px;
+    line-height: 40px
+}
+
+
+.right-side-quotes h1{
+    margin-top: px;
+    text-align: center;
+}
+.right-side-quotes p i a{
+    color: black;
+    text-decoration: none;
+}
+
+h2{
+    margin-top: 120px;
+    margin-left: 50px;
+}
+ 
+.section-footer{
+    width: 100%;
+    min-height: 100px;
+    overflow: auto;
+    
+}
+.section-footer ul{
+    padding-left: 40px
+}
+.section-footer ul li{
+    list-style: none;
+    float: left;
+}
+.section-footer ul li a img{
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;
+    position: relative;
+    left: 220px;
+    
+}
+
+a:active{
+    text-decoration: none;
+}
+
+a:focus{
+    outline: none;
+}
+
+
+
+
+
+
